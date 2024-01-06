@@ -55,6 +55,12 @@ Both of these files support a subset of `devcontainer.json` properties:
 }
 ```
 
+```python
+    for i in range(10):
+        print("Hello World")
+
+```
+
 See the [attached container config reference](#attached-container-configuration-reference) for a complete list of properties and their uses.
 
 Once saved, whenever you open a container for the first time with the same image / container name, these properties will be used to configure the environment.
